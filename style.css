@@ -1,0 +1,251 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+/*----navigation------*/
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+#nav-bar
+{
+    position: static;
+    top:0;
+    z-index:10;
+}
+
+.navbar-brand img
+
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: :left;
+}
+
+#nav-bar ul li a:hover{
+    color: #90ee90!important;
+
+}
+
+.navbar
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none! important;
+}
+
+.nav-link
+{
+    color:#000000!important;
+    font-weight:600;
+    font-size:16px;
+}
+
+/*--SLIDER---*/
+#slider
+{
+    width:50%;
+}
+
+.carousel-caption
+{
+    top: 50%;
+    transform:translateY(-50%);
+    bottom: initial!important;
+}
+
+
+div{
+    display: block;
+}
+
+.dyb{
+display: flex;
+margin: 2rem;
+}
+
+.dyb-content{
+  flex: 0 0 60%;
+
+  padding-left: 3rem;
+  padding-top: 5rem;
+}
+.provide-img{
+  position: absolute;
+  margin-left: 23rem;
+  margin-top: 17rem;
+}
+
+.table-type{
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+.list{
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.list-item{
+    flex: 0 0 100%;
+    max-width: 33%;
+    padding-left: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.list-item p:first-child{
+    margin-bottom: 0;
+    min-height: 7rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bold-tt{
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.blw-slider-commission{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.title-commission{
+    font-weight: 900;
+    font-size:2.5rem;
+}
+
+span{
+    color: #3fc380;
+}
+
+.flo{
+    padding-left: 3rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flo-content{
+
+    padding-top:4.5rem;
+    flex: 0 0 45%;
+    max-width: 50%;
+    padding-left: 2.5rem;
+
+}
+
+.flo-p{
+    font-size: 1.2rem;
+}
+
+.flo-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.flo-title{
+
+    font-weight: 900;
+    font-size: 2.5rem;
+
+}
+
+.flo-learn{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #3fc380;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.higher-day-content{
+  text-align: center;
+  margin: auto;
+  max-width: 70%
+}
+
+.leverage{
+  margin: 2rem 10rem 1.25rem 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+}
+.leverage-list{
+  box-shadow: 0 0 1rem rgb(63 195 128 / 20%);
+}
+.leverage-item{
+border-right: 1px solid rgba(0,0,0,.08);
+}
+
+.no-pattern{
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  padding: 0rem 5rem 5rem 5rem;
+  line-height: 25px;
+}
+
+.no-pattern-content{
+  flex: 0 0 50%;
+  padding-left: 3rem;
+  max-width: 50%;
+}
+
+.our-tech{
+  display: flex;
+  margin: 5rem;
+
+  padding-bottom: 5rem;
+}
+
+.our-tech-content{
+  flex: 0 0 45%;
+  max-width: 50%;
+  align-items: center;
+  padding-top: 7rem;
+  padding-right: 5rem;
+  line-height: 25px;
+}
+
+.direct-market{
+  padding: 0rem 5rem 3rem 5rem;
+  text-align: center;
+}
+
+.direct-market-content{
+  padding-top: 2rem;
+}
+
+.open-account{
+    font-size: 1.125rem;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #3fc380;
+    color: #fff;
+    padding-top: 3.25rem;
+    padding-bottom: 3.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
